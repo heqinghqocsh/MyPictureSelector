@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPictureSelector</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="finish">完成</string>
+    <string name="picture">图片</string>
+    <string name="all_picture">全部图片</string>
+    <string name="no_picture">相册里没有图片</string>
+    <string name="only_choose_num">最多只能选择&#160;%1$d&#160;张图片</string>
+
+</resources>

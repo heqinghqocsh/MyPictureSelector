@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hq.mypictureselector.SelectorActivity$PlaceholderFragment" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/cc_trans_black" >
+
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/back_btn_selector"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/go_back"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/picture"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <GridView
+        android:background="@android:color/black"
+        android:id="@+id/picture_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top"
+        android:horizontalSpacing="4dp"
+        android:layout_marginBottom="50dp"
+        android:numColumns="4"
+        android:verticalSpacing="4dp" />
+
+    <TextView
+        android:id="@+id/noPictureTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/no_picture"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#cc000000" >
+
+        <TextView
+            android:id="@+id/floderTip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:background="@drawable/drop_down_selector"
+            android:text="@string/all_picture"
+            android:textColor="@color/dark_white_font_selector"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/finishBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/green_btn_selector"
+            android:clickable="true"
+            android:enabled="false"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/finish"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</RelativeLayout>

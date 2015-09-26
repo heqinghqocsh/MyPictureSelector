@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="cc_trans_black">#cc000000</color>
+    <color name="trans_55_black">#cc000000</color>
+    <color name="dark_green">#5EAA55</color>
+    <color name="light_green">#45C018</color>
+    <color name="trans_green">#5500fa00</color>
+</resources>
